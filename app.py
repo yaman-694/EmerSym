@@ -8,7 +8,6 @@ from werkzeug.utils import secure_filename
 # from flask_pymongo import PyMongo
 
 model = tf.keras.models.load_model('model.h5')
-
 ALLOWED_EXTENSIONS = {'wav', 'mp3', 'mp4', 'm4a'}
 UPLOAD_FOLDER = 'D:/yaman/project/emergency/UPLOAD_FOLDER'
 
