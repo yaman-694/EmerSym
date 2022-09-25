@@ -1,0 +1,11 @@
+flask
+numpy
+sklearn
+tensorflow
+gunicorn
+pandas
+librosa
+
+Werkzeug
+requests
+pydub
