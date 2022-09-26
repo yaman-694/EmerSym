@@ -1,3 +1,5 @@
+#!C:\Users\jyama\AppData\Local\Microsoft\WindowsApps\python.exe
+print("Content-Type: text/html\n")
 from flask import Flask, request, flash
 import tensorflow as tf
 import numpy as np
