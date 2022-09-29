@@ -1,7 +1,7 @@
 flask
 numpy
 sklearn
-tensorflow
+tensorflow==2.10.0
 gunicorn
 librosa
 Werkzeug
