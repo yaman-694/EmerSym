@@ -53,9 +53,9 @@ def predict():
         print(path)
         os.remove(path)
         if predictions[0][0] == 0:
-            return {"Prediction": 'Emergency'}
-        else:
             return {"Prediction": 'Non Emergency'}
+        else:
+            return {"Prediction": 'Emergency'}
 
     return {'file': 'empty'}
 

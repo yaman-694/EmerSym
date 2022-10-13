@@ -5,6 +5,6 @@ from pydub import AudioSegment
 input_file = r"C:\Users\jyama\Downloads\7383-3-0-0.mp3"
 output_file = "result.wav"
 
-# convert mp3 file to wav file
+# convert mp3 file to wav fil
 sound = AudioSegment.from_mp3(input_file)
 sound.export(output_file, format="wav")
