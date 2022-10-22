@@ -1,5 +1,3 @@
-#!C:\Users\jyama\AppData\Local\Microsoft\WindowsApps\python.exe
-print("Content-Type: text/html\n")
 from flask import Flask, request, flash
 import tensorflow as tf
 import numpy as np
@@ -11,7 +9,8 @@ from werkzeug.utils import secure_filename
 
 model = tf.keras.models.load_model('model.h5')
 ALLOWED_EXTENSIONS = {'wav', 'mp3', 'mp4', 'm4a'}
-UPLOAD_FOLDER = 'D:/yaman/project/emergency/UPLOAD_FOLDER'
+UPLOAD_FOLDER = 'UPLOAD_FOLDER'
+
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
